@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,700&display=swap");
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(240, 240, 240);
+  position: relative;
+}
+
+h1, h2 {
+  font-family: 'Raleway', serif;
+}
+
+h1 {
+  color: white;
+  letter-spacing: 2px;
+  font-weight: italic;
+}
+
+h2 {
+  color: #f2b2c3;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #2b2b28;
+}
+
+a:hover {
+  color: #8C8C8C;
+}
+
+#main-intro {
+  background-color: #ef9fbf;
+  padding: 24px;
+  width: 620px;
+  margin: 16px auto;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 24px;
+  width: 620px;
+  margin: 16px auto;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 130px;
+}
+
+.discover {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.btn-pink {
+  background-color: white;
+  color: #f2b2c3;
+  padding: 5px 24px;
+  border-radius: 4px;
+  transition: ease 0.3s;
+}
+
+.btn-pink:hover {
+  background-color: #9E9E9E;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.icon-social {
+  font-size: 40px;
+  margin: 8px 16px;
+  /*color: rgb(230, 230, 230);*/
+  opacity: 0.3;
+}
+
+.icon-social:hover {
+  opacity: 0.8;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+
+.fab {
+  color: #ef9fbf;
+  font-size: 30px;
+}
+
+.scroll-left {
+height: 35px;
+overflow: hidden;
+position: relative;
+background-color: #86ed31;
+margin-bottom: 60px;
+margin-top: 60px;
+}
+
+.scroll-text {
+    height : 1.2 em;
+    width : 5%;
+    margin : auto;
+    position : absolute;
+    top:-6;
+    bottom:0;
+    left:0;
+    right:0;
+    color:white;
+}
+
+.scroll-left p {
+position: absolute;
+width: 100%;
+height: 100%;
+margin: 0;
+line-height: 50px;
+text-align: center;
+/* Starting position */
+-moz-transform:translateX(100%);
+-webkit-transform:translateX(100%);
+transform:translateX(100%);
+/* Apply animation to this element */
+-moz-animation: scroll-left 15s linear infinite;
+-webkit-animation: scroll-left 15s linear infinite;
+animation: scroll-left 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+0% { -moz-transform: translateX(100%); }
+100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+0% { -webkit-transform: translateX(100%); }
+100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+0% {
+-moz-transform: translateX(100%); /* Browser bug fix */
+-webkit-transform: translateX(100%); /* Browser bug fix */
+transform: translateX(100%);
+}
+100% {
+-moz-transform: translateX(-100%); /* Browser bug fix */
+-webkit-transform: translateX(-100%); /* Browser bug fix */
+transform: translateX(-100%);
+}
+}
+
