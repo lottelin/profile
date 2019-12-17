@@ -108,6 +108,7 @@ a:hover {
 
 .scroll-left {
 height: 35px;
+font-weight: bold;
 overflow: hidden;
 position: relative;
 background-color: #86ed31;
