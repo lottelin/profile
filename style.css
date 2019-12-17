@@ -132,6 +132,7 @@ margin-top: 60px;
 position: absolute;
 width: 100%;
 height: 100%;
+letter-spacing: 15px;
 margin: 0;
 line-height: 50px;
 text-align: center;
@@ -140,9 +141,9 @@ text-align: center;
 -webkit-transform:translateX(100%);
 transform:translateX(100%);
 /* Apply animation to this element */
--moz-animation: scroll-left 15s linear infinite;
--webkit-animation: scroll-left 15s linear infinite;
-animation: scroll-left 15s linear infinite;
+-moz-animation: scroll-left 30s linear infinite;
+-webkit-animation: scroll-left 30s linear infinite;
+animation: scroll-left 30s linear infinite;
 }
 /* Move it (define the animation) */
 @-moz-keyframes scroll-left {
