@@ -3,8 +3,12 @@
 
 body {
   font-family: 'Raleway', sans-serif;
-  background-color: rgb(240, 240, 240);
-  position: relative;
+  width: 100%;
+  background-color: #f1f3f6;
+/*  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;*/
 }
 
 h1 {
@@ -18,6 +22,12 @@ h1 {
 h2 {
   font-family: 'Raleway', serif;
   color: #f2b2c3;
+}
+
+
+.img-circle {
+  border-radius: 50%;
+  width: 130px;
 }
 
 a {
@@ -37,41 +47,30 @@ a:hover {
   margin: 16px auto;
   text-align: center;
   box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
-  border-radius: 4px;
+  border-radius: 20px;
   color: white;
 }
 
-.card-white {
-  background-color: white;
+.container {
+/*  background-color: white;*/
+  background-color: #f1f3f6;
   padding: 24px;
   width: 620px;
-  margin: 16px auto;
+  margin: 60px auto;
   text-align: center;
-  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
-  border-radius: 4px;
+  border-radius: 20px;
+/*  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);*/
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  box-shadow: 15px 15px 40px 0px rgba(55,84,170, .1),
+              -15px -15px 40px 0px rgba(255,255,255, 1),
+              inset 2px 2px 10px 0px rgba(255,255,255, .5);
 }
 
-.img-circle {
-  border-radius: 50%;
-  width: 130px;
-}
-
-.discover {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.btn-pink {
-  background-color: white;
-  color: #f2b2c3;
-  padding: 5px 24px;
-  border-radius: 4px;
-  transition: ease 0.3s;
-}
-
-.btn-pink:hover {
-  background-color: #9E9E9E;
-  color: white;
+#last {
+  margin-bottom: 100px;
 }
 
 .list-inline {
@@ -83,16 +82,6 @@ a:hover {
   display: inline-block;
 }
 
-.icon-social {
-  font-size: 40px;
-  margin: 8px 16px;
-  /*color: rgb(230, 230, 230);*/
-  opacity: 0.3;
-}
-
-.icon-social:hover {
-  opacity: 0.8;
-}
 
 #footer {
   text-align: center;
@@ -103,7 +92,8 @@ a:hover {
 
 .fab {
   color: #ef9fbf;
-  font-size: 30px;
+  font-size: 25px;
+  letter-spacing: 15px;
 }
 
 .scroll-left {
@@ -168,3 +158,23 @@ transform: translateX(-100%);
 }
 
 
+
+
+/*buttom*/
+/*.discover {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}*/
+
+/*.btn-pink {
+  background-color: white;
+  color: #f2b2c3;
+  padding: 5px 24px;
+  border-radius: 4px;
+  transition: ease 0.3s;
+}
+
+.btn-pink:hover {
+  background-color: #9E9E9E;
+  color: white;
+}*/
