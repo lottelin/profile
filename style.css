@@ -17,6 +17,7 @@
     #secondary { width:30%;}
     h1 {font-size: 50px;}
     img {width: 180px;}
+
 }
 
 /* Media Queries: Tabled Portrait */
@@ -47,7 +48,6 @@ h1 {
   color: white;
   letter-spacing: 6px;
   font-weight: italic;
-/*  font-size: 5em;*/
 }
 
 h2 {
@@ -58,7 +58,6 @@ h2 {
 
 .img-circle {
   border-radius: 50%;
-/*  width: 130px;*/
 }
 
 a {
@@ -74,7 +73,6 @@ a:hover {
 #main-intro {
   background-color: #ef9fbf;
   padding: 24px;
-/*  width: 620px;*/
   max-width: 60vw;
   margin: 16px auto;
   text-align: center;
@@ -89,24 +87,13 @@ a:hover {
   background-color: white;
   padding: 24px;
   max-width: 60vw;
-/*  width: 620px;*/
+  border-left: double;
+  border-right: double;
   margin: 60px auto;
   text-align: center;
   overflow: auto;
   border-radius: 20px;
 }
-
-.keyboard {
-  background-color: pink;
-  padding: 15px;
-  width: 65px;
-  height: 65px;
-  margin: 0px auto 40px auto;
-  text-align: center;
-  border-radius: 15px;
-}
-
-
 
 .links {
 max-width: 60vw;
@@ -114,6 +101,26 @@ display: flex;
 justify-content: space-between;
 margin:auto;
 }
+
+.social-media {
+  background-color: pink;
+  width: 90px;
+  height: 90px;
+  margin: 45px auto;
+  text-align: center;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media a {
+  color:white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
 
 
 
