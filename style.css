@@ -112,12 +112,19 @@ margin:auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  border:4px double #666;
+  text-shadow:0 1px 0 #fff;
 }
 
+.social-media:hover{
+  color:#000;
+  background:#fff;
+}
+
+
 .social-media a {
-  color:white;
+  color: black;
   font-size: 15px;
-  font-weight: bold;
 }
 
 
