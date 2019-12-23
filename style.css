@@ -10,6 +10,7 @@
     h3 {font-size: 25px;}
     p {font-size: 20px;}
     img {width: 180px;}
+
 }
 
 @media screen and (max-width: 1280px) {
@@ -18,16 +19,18 @@
     h1 {font-size: 50px;}
     img {width: 180px;}
 
+
 }
 
 /* Media Queries: Tabled Portrait */
 @media screen and (max-width: 768px) {
     #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
+    #secondary { width:100%; margin:0; border:none;}
     h1 {font-size: 30px;}
     h3 {font-size: 15px;}
     p {font-size: 12px;}
     img {width: 130px;}
+
 }
 
 
@@ -53,6 +56,7 @@ h1 {
 h2 {
   font-family: 'Raleway', serif;
   color: #f2b2c3;
+/*  background-color: white;*/
 }
 
 
@@ -82,18 +86,33 @@ a:hover {
   overflow: auto;
 }
 
+/*.sticker {
+  z-index: 1;
+  position: absolute;
+  height:30px;
+  width:80px;
+  top: 13%;
+  left: 16%;
+  bottom: 0;
+  right: 0;
+  display: block;
+  background-color: rgb(255, 255, 35);
+  opacity: 1;
+  transition: opacity 0.6s ease 0.4s;
+}*/
 
 .card {
-  background-color: white;
-  padding: 24px;
+  position: relative;
+  background-color: #d4fad1;
+  padding: 20px;
   max-width: 60vw;
-  border-left: double;
-  border-right: double;
-  margin: 40px auto;
+  margin: 60px auto;
   text-align: center;
   overflow: auto;
-  border-radius: 20px;
+  box-shadow: 20px 20px #e6dcf5;
 }
+
+
 
 .links {
 max-width: 60vw;
@@ -203,23 +222,3 @@ transform: translateX(-100%);
 }
 
 
-
-
-/*buttom*/
-/*.discover {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}*/
-
-/*.btn-pink {
-  background-color: white;
-  color: #f2b2c3;
-  padding: 5px 24px;
-  border-radius: 4px;
-  transition: ease 0.3s;
-}
-
-.btn-pink:hover {
-  background-color: #9E9E9E;
-  color: white;
-}*/
