@@ -1,2 +1,5 @@
 # My Personal Website
-http://charlottewanchenlin.me/
+
+Please visit http://charlottewanchenlin.me/
+
+<img src="https://media.giphy.com/media/Tifsnoi556RFLBFD3K/giphy.gif"/>
